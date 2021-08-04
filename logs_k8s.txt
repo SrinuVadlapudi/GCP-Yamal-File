@@ -1,0 +1,1970 @@
+Microsoft Windows [Version 10.0.19042.1110]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\ishaq>gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project midevlab
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin\..\lib\gcloud.py", line 104, in <module>
+    main()
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin\..\lib\gcloud.py", line 76, in main
+    gcloud_main = _import_gcloud_main()
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin\..\lib\gcloud.py", line 56, in _import_gcloud_main
+    import googlecloudsdk.gcloud_main
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\googlecloudsdk\gcloud_main.py", line 33, in <module>
+    from googlecloudsdk.calliope import base
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\googlecloudsdk\calliope\base.py", line 30, in <module>
+    from googlecloudsdk.calliope import arg_parsers
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\googlecloudsdk\calliope\arg_parsers.py", line 63, in <module>
+    from googlecloudsdk.core import yaml
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\googlecloudsdk\core\yaml.py", line 31, in <module>
+    from googlecloudsdk.core import yaml_location_value
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\googlecloudsdk\core\yaml_location_value.py", line 39, in <module>
+    from ruamel import yaml
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin\..\lib\third_party\ruamel\yaml\__init__.py", line 85, in <module>
+    from ruamel.yaml.main import *  # NOQA
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin\..\lib\third_party\ruamel\yaml\main.py", line 19, in <module>
+    from ruamel.yaml.loader import BaseLoader, SafeLoader, Loader, RoundTripLoader  # NOQA
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin\..\lib\third_party\ruamel\yaml\loader.py", line 6, in <module>
+    from ruamel.yaml.reader import Reader
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 818, in get_code
+  File "<frozen importlib._bootstrap_external>", line 916, in get_data
+KeyboardInterrupt
+Terminate batch job (Y/N)? y
+
+C:\Users\ishaq>kubectl version
+Client Version: version.Info{Major:"1", Minor:"17+", GitVersion:"v1.17.17-dispatcher", GitCommit:"a39a896b5018d0c800124a36757433c660fd0880", GitTreeState:"clean", BuildDate:"2021-01-28T22:25:50Z", GoVersion:"go1.13.9", Compiler:"gc", Platform:"windows/amd64"}
+Unable to connect to the server: dial tcp 35.222.26.115:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+C:\Users\ishaq>
+C:\Users\ishaq>
+C:\Users\ishaq>
+C:\Users\ishaq>
+C:\Users\ishaq>gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project midevlab
+Fetching cluster endpoint and auth data.
+kubeconfig entry generated for cluster-1.
+
+
+Updates are available for some Cloud SDK components.  To install them,
+please run:
+  $ gcloud components update
+
+
+C:\Users\ishaq>kubectl version
+Client Version: version.Info{Major:"1", Minor:"17+", GitVersion:"v1.17.17-dispatcher", GitCommit:"a39a896b5018d0c800124a36757433c660fd0880", GitTreeState:"clean", BuildDate:"2021-01-28T22:25:50Z", GoVersion:"go1.13.9", Compiler:"gc", Platform:"windows/amd64"}
+Server Version: version.Info{Major:"1", Minor:"19+", GitVersion:"v1.19.9-gke.1900", GitCommit:"008fd38bf3dc201bebdd4fe26edf9bf87478309a", GitTreeState:"clean", BuildDate:"2021-04-14T09:22:08Z", GoVersion:"go1.15.8b5", Compiler:"gc", Platform:"linux/amd64"}
+
+C:\Users\ishaq>kubectl cluster-info
+Kubernetes master is running at https://34.70.141.238
+GLBCDefaultBackend is running at https://34.70.141.238/api/v1/namespaces/kube-system/services/default-http-backend:http/proxy
+KubeDNS is running at https://34.70.141.238/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+Metrics-server is running at https://34.70.141.238/api/v1/namespaces/kube-system/services/https:metrics-server:/proxy
+
+To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+
+C:\Users\ishaq>kubectl get pods
+No resources found in default namespace.
+
+C:\Users\ishaq>d:
+
+D:\>cd "MI Institute"
+
+D:\MI Institute>dir
+ Volume in drive D is Data
+ Volume Serial Number is F6E8-4877
+
+ Directory of D:\MI Institute
+
+08-05-2021  16:22    <DIR>          .
+08-05-2021  16:22    <DIR>          ..
+08-03-2021  19:11    <DIR>          Alibaba
+08-05-2021  16:22    <DIR>          Ansible
+04-05-2021  11:54    <DIR>          AWS
+18-02-2021  18:43    <DIR>          Azure
+11-07-2021  21:12    <DIR>          Certification
+28-08-2020  20:28    <DIR>          CV's
+03-03-2021  17:05    <DIR>          DevOps
+27-12-2020  06:25    <DIR>          Docker
+08-10-2019  19:54    <DIR>          EMC
+14-02-2021  10:45    <DIR>          Flight
+12-07-2021  23:39    <DIR>          GCP Training
+27-08-2020  17:04    <DIR>          Kubernetes
+27-08-2020  09:46    <DIR>          Logo
+12-02-2021  15:06    <DIR>          Publicity
+27-12-2020  06:24    <DIR>          SAN Training
+08-10-2019  19:54    <DIR>          Vmware
+17-04-2021  22:49    <DIR>          Website ssl
+               0 File(s)              0 bytes
+              19 Dir(s)  581,153,038,336 bytes free
+
+D:\MI Institute>cd "GCP Training"
+
+D:\MI Institute\GCP Training>dir
+ Volume in drive D is Data
+ Volume Serial Number is F6E8-4877
+
+ Directory of D:\MI Institute\GCP Training
+
+12-07-2021  23:39    <DIR>          .
+12-07-2021  23:39    <DIR>          ..
+24-03-2021  20:56             1,449 apache.ppk
+18-01-2021  09:23    <DIR>          Business
+07-10-2020  10:11    <DIR>          Course Content
+22-09-2020  21:45    <DIR>          DevOps
+08-07-2021  22:46    <DIR>          GCP Demo
+16-06-2021  09:05         3,685,085 GCP_DevOps RTT Demo - Ishaq.pptx
+03-05-2021  08:18    <DIR>          GitHub
+21-05-2021  07:05    <DIR>          Google cloud
+17-02-2021  16:43    <DIR>          JD
+19-04-2021  12:51    <DIR>          Jenkinsfiles
+24-04-2021  22:41    <DIR>          K8s
+29-06-2021  07:17    <DIR>          Labs
+26-04-2021  20:19    <DIR>          localrepo
+05-04-2021  12:06    <DIR>          Recording sessions
+01-07-2021  16:47    <DIR>          Scenarios
+19-04-2021  20:40    <DIR>          Source repos
+01-07-2021  09:08    <DIR>          Student List
+13-07-2021  09:16    <DIR>          Success Stories
+04-11-2019  18:03    <DIR>          Troubleshooting
+               2 File(s)      3,686,534 bytes
+              19 Dir(s)  581,153,038,336 bytes free
+
+D:\MI Institute\GCP Training>cd gcp DevOps
+The system cannot find the path specified.
+
+D:\MI Institute\GCP Training>labs
+'labs' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\MI Institute\GCP Training>cd lbas
+The system cannot find the path specified.
+
+D:\MI Institute\GCP Training>cd labs
+
+D:\MI Institute\GCP Training\Labs>dir
+ Volume in drive D is Data
+ Volume Serial Number is F6E8-4877
+
+ Directory of D:\MI Institute\GCP Training\Labs
+
+29-06-2021  07:17    <DIR>          .
+29-06-2021  07:17    <DIR>          ..
+14-08-2020  23:19               384 AppEngibe
+01-05-2021  08:20    <DIR>          Batch03
+04-08-2020  02:32               154 Cloud CDN
+08-10-2020  18:46               102 Cloud Spanner.txt
+20-04-2021  19:29    <DIR>          Deployment_Manager
+26-04-2021  08:53           281,773 Docker Commands.docx
+07-02-2021  09:58    <DIR>          Docker Jenkins
+04-03-2021  09:44               170 gce.sh
+03-07-2021  07:35    <DIR>          gcp-devops
+30-11-2020  08:04               663 gcs.txt
+10-05-2021  20:30               321 github.tf
+29-03-2021  20:52             1,231 http LB
+16-07-2021  08:43    <DIR>          K8s
+21-04-2021  08:28               691 mysql.txt
+01-03-2021  17:26           366,263 nexus jenkins setup.docx
+20-05-2021  10:15    <DIR>          Nexus setup
+06-05-2021  08:01    <DIR>          rakesh
+03-05-2021  20:33               356 setting up SA on Jenkins.txt
+20-04-2021  20:09             1,045 Stackdriver.txt
+11-05-2021  08:08                81 sunday.sh
+12-10-2019  18:32            20,969 terraform-google-cloud-examples-master.zip
+20-12-2020  09:41    <DIR>          terraform_sunday
+29-06-2021  07:29                95 tuesday.sh
+31-07-2020  19:41               509 VPC
+04-08-2020  02:33               147 VPC peering
+              17 File(s)        674,954 bytes
+              10 Dir(s)  581,153,038,336 bytes free
+
+D:\MI Institute\GCP Training\Labs>cd K8s
+
+D:\MI Institute\GCP Training\Labs\K8s>dir
+ Volume in drive D is Data
+ Volume Serial Number is F6E8-4877
+
+ Directory of D:\MI Institute\GCP Training\Labs\K8s
+
+16-07-2021  08:43    <DIR>          .
+16-07-2021  08:43    <DIR>          ..
+14-04-2021  13:12    <DIR>          configmap
+13-04-2021  17:28    <DIR>          cronjob
+13-04-2021  17:29    <DIR>          Dual containers
+16-07-2021  08:15               582 first-app.yaml
+15-04-2021  17:40             2,243 full.yml
+13-06-2021  17:33               477 hello.yml
+30-04-2021  08:07    <DIR>          HPA
+16-07-2021  08:43            52,540 kubectl-commands.pdf
+28-04-2021  07:18    <DIR>          mrng
+12-04-2021  21:11               356 my-app.yml
+06-05-2021  08:42             1,097 readiness probe test.yml
+17-05-2021  15:07             1,115 readiness probe.yml
+15-04-2021  20:23             1,118 test.yml
+               8 File(s)         59,528 bytes
+               7 Dir(s)  581,153,038,336 bytes free
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl apply -f first-app.yaml
+service/my-lb-service created
+deployment.apps/second-app created
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-6c847df9c7-rprd8   1/1     Running   0          16s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-6c847df9c7-rprd8
+Name:         second-app-6c847df9c7-rprd8
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 07:31:58 +0530
+Labels:       app=second-app
+              pod-template-hash=6c847df9c7
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.10
+IPs:
+  IP:           10.4.0.10
+Controlled By:  ReplicaSet/second-app-6c847df9c7
+Containers:
+  second-app:
+    Container ID:   containerd://7eae43201802b47662ef0a8d43d73f344e707b1e8ed70f31f9cee0a83108d4da
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 07:32:10 +0530
+    Ready:          True
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             True
+  ContainersReady   True
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       BestEffort
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type    Reason     Age   From                                               Message
+  ----    ------     ----  ----                                               -------
+  Normal  Scheduled  34s   default-scheduler                                  Successfully assigned default/second-app-6c847df9c7-rprd8 to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal  Pulling    33s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal  Pulled     22s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 11.160761574s
+  Normal  Created    22s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal  Started    22s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-6c847df9c7-rprd8   1/1     Running   0          70s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods -o wide
+NAME                          READY   STATUS    RESTARTS   AGE   IP          NODE                                       NOMINATED NODE   READINESS GATES
+second-app-6c847df9c7-rprd8   1/1     Running   0          79s   10.4.0.10   gke-cluster-1-default-pool-978e0d0a-3bzg   <none>           <none>
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get nodes
+NAME                                       STATUS   ROLES    AGE     VERSION
+gke-cluster-1-default-pool-978e0d0a-3bzg   Ready    <none>   7m37s   v1.19.9-gke.1900
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get nodes -o wide
+NAME                                       STATUS   ROLES    AGE     VERSION            INTERNAL-IP   EXTERNAL-IP   OS-IMAGE                             KERNEL-VERSION   CONTAINER-RUNTIME
+gke-cluster-1-default-pool-978e0d0a-3bzg   Ready    <none>   7m56s   v1.19.9-gke.1900   10.128.0.39   34.72.27.19   Container-Optimized OS from Google   5.4.89+          containerd://1.4.3
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl exec -it second-app-6c847df9c7-rprd8 /bin/sh
+/ # ls
+bin    dev    etc    home   lib    media  mnt    opt    proc   root   run    sbin   srv    sys    test   tmp    usr    var
+/ # cd test
+/test # ls
+TEST-0.0.1-SNAPSHOT.jar
+/test # exit
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl exec -it second-app-6c847df9c7-rprd8 /bin/sh
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl delete -f first-app.yaml
+service "my-lb-service" deleted
+deployment.apps "second-app" deleted
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl apply -f first-app.yaml
+service/my-lb-service created
+deployment.apps/second-app created
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS              RESTARTS   AGE
+second-app-79fc75c88b-8znjg   0/2     ContainerCreating   0          7s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-79fc75c88b-8znjg   2/2     Running   0          16s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubecl exec -it second-app-79fc75c88b-8znjg /bin/sh
+'kubecl' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl exec -it second-app-79fc75c88b-8znjg /bin/sh
+Defaulting container name to second-app.
+Use 'kubectl describe pod/second-app-79fc75c88b-8znjg -n default' to see all of the containers in this pod.
+/ # ls
+bin    dev    etc    home   lib    media  mnt    opt    proc   root   run    sbin   srv    sys    test   tmp    usr    var
+/ # exit
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl exec -it second-app-79fc75c88b-8znjg -c first-app /bin/sh
+# ls
+bin  boot  dev  docker-entrypoint.d  docker-entrypoint.sh  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+# exit
+
+D:\MI Institute\GCP Training\Labs\K8s>kubecl describe quota
+'kubecl' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe quota
+Name:                              gke-resource-quotas
+Namespace:                         default
+Resource                           Used  Hard
+--------                           ----  ----
+count/ingresses.extensions         0     100
+count/ingresses.networking.k8s.io  0     100
+count/jobs.batch                   0     5k
+pods                               1     1500
+services                           2     500
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get namesapces
+error: the server doesn't have a resource type "namesapces"
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get namespaces
+NAME              STATUS   AGE
+default           Active   24m
+kube-node-lease   Active   24m
+kube-public       Active   24m
+kube-system       Active   24m
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl create namespace app-deploy
+namespace/app-deploy created
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get namespaces
+NAME              STATUS   AGE
+app-deploy        Active   5s
+default           Active   25m
+kube-node-lease   Active   25m
+kube-public       Active   25m
+kube-system       Active   25m
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods -n kube-system
+NAME                                                        READY   STATUS    RESTARTS   AGE
+event-exporter-gke-67986489c8-8n7kw                         2/2     Running   0          25m
+fluentbit-gke-qmdrf                                         2/2     Running   0          25m
+gke-metrics-agent-ct5m6                                     1/1     Running   0          25m
+kube-dns-6c7b8dc9f9-6g4pf                                   4/4     Running   0          25m
+kube-dns-autoscaler-58cbd4f75c-rgngh                        1/1     Running   0          25m
+kube-proxy-gke-cluster-1-default-pool-978e0d0a-3bzg         1/1     Running   0          23m
+l7-default-backend-66579f5d7-pcsn7                          1/1     Running   0          25m
+metrics-server-v0.3.6-6c47ffd7d7-mm7hv                      2/2     Running   0          24m
+pdcsi-node-x5nh5                                            2/2     Running   0          25m
+stackdriver-metadata-agent-cluster-level-697dcfdd5b-vpb6d   2/2     Running   0          24m
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods -n app-deploy
+No resources found in app-deploy namespace.
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl delete -f first-app.yaml
+service "my-lb-service" deleted
+deployment.apps "second-app" deleted
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl apply -f first-app.yaml -n app-deploy
+service/my-lb-service created
+deployment.apps/second-app created
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods -n app-deploy
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-79fc75c88b-flk4m   2/2     Running   0          14s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+No resources found in default namespace.
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe quota
+Name:                              gke-resource-quotas
+Namespace:                         default
+Resource                           Used  Hard
+--------                           ----  ----
+count/ingresses.extensions         0     100
+count/ingresses.networking.k8s.io  0     100
+count/jobs.batch                   0     5k
+pods                               0     1500
+services                           1     500
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe quota
+Name:                              gke-resource-quotas
+Namespace:                         default
+Resource                           Used  Hard
+--------                           ----  ----
+count/ingresses.extensions         0     100
+count/ingresses.networking.k8s.io  0     100
+count/jobs.batch                   0     5k
+pods                               0     1500
+services                           1     500
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe quota -n app-deploy
+Name:                              gke-resource-quotas
+Namespace:                         app-deploy
+Resource                           Used  Hard
+--------                           ----  ----
+count/ingresses.extensions         0     100
+count/ingresses.networking.k8s.io  0     100
+count/jobs.batch                   0     5k
+pods                               1     1500
+services                           1     500
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe quota -n app-deploy
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl apply -f first-app.yaml
+service/my-lb-service created
+deployment.apps/second-app created
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl delete -f first-app.yaml
+service "my-lb-service" deleted
+deployment.apps "second-app" deleted
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl apply -f first-app.yaml
+service/my-lb-service created
+deployment.apps/second-app created
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-7bdc69c4b8-bvpb5   0/1     Running   0          6s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-7bdc69c4b8-bvpb5
+Name:         second-app-7bdc69c4b8-bvpb5
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:21:02 +0530
+Labels:       app=second-app
+              pod-template-hash=7bdc69c4b8
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.13
+IPs:
+  IP:           10.4.0.13
+Controlled By:  ReplicaSet/second-app-7bdc69c4b8
+Containers:
+  second-app:
+    Container ID:   containerd://d85a9e9e7a5aad37ee0e2ecd4c68d2d873e29a6d988652cb209f92238bfc8039
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:21:04 +0530
+    Ready:          False
+    Restart Count:  0
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             False
+  ContainersReady   False
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type    Reason     Age   From                                               Message
+  ----    ------     ----  ----                                               -------
+  Normal  Scheduled  18s   default-scheduler                                  Successfully assigned default/second-app-7bdc69c4b8-bvpb5 to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal  Pulling    16s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal  Pulled     16s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 352.846256ms
+  Normal  Created    16s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal  Started    16s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-7bdc69c4b8-bvpb5
+Name:         second-app-7bdc69c4b8-bvpb5
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:21:02 +0530
+Labels:       app=second-app
+              pod-template-hash=7bdc69c4b8
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.13
+IPs:
+  IP:           10.4.0.13
+Controlled By:  ReplicaSet/second-app-7bdc69c4b8
+Containers:
+  second-app:
+    Container ID:   containerd://d85a9e9e7a5aad37ee0e2ecd4c68d2d873e29a6d988652cb209f92238bfc8039
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:21:04 +0530
+    Ready:          False
+    Restart Count:  0
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             False
+  ContainersReady   False
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason     Age   From                                               Message
+  ----     ------     ----  ----                                               -------
+  Normal   Scheduled  28s   default-scheduler                                  Successfully assigned default/second-app-7bdc69c4b8-bvpb5 to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal   Pulling    26s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal   Pulled     26s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 352.846256ms
+  Normal   Created    26s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal   Started    26s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+  Warning  Unhealthy  10s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Readiness probe failed: Get "http://10.4.0.13:8080/hello": dial tcp 10.4.0.13:8080: connect: connection refused
+  Warning  Unhealthy  6s    kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Liveness probe failed: Get "http://10.4.0.13:8080/hello": dial tcp 10.4.0.13:8080: connect: connection refused
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-7bdc69c4b8-bvpb5
+Name:         second-app-7bdc69c4b8-bvpb5
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:21:02 +0530
+Labels:       app=second-app
+              pod-template-hash=7bdc69c4b8
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.13
+IPs:
+  IP:           10.4.0.13
+Controlled By:  ReplicaSet/second-app-7bdc69c4b8
+Containers:
+  second-app:
+    Container ID:   containerd://d85a9e9e7a5aad37ee0e2ecd4c68d2d873e29a6d988652cb209f92238bfc8039
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:21:04 +0530
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             True
+  ContainersReady   True
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason     Age   From                                               Message
+  ----     ------     ----  ----                                               -------
+  Normal   Scheduled  57s   default-scheduler                                  Successfully assigned default/second-app-7bdc69c4b8-bvpb5 to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal   Pulling    55s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal   Pulled     55s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 352.846256ms
+  Normal   Created    55s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal   Started    55s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+  Warning  Unhealthy  39s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Readiness probe failed: Get "http://10.4.0.13:8080/hello": dial tcp 10.4.0.13:8080: connect: connection refused
+  Warning  Unhealthy  35s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Liveness probe failed: Get "http://10.4.0.13:8080/hello": dial tcp 10.4.0.13:8080: connect: connection refused
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-7bdc69c4b8-bvpb5   1/1     Running   0          80s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl delete -f first-app.yaml
+service "my-lb-service" deleted
+deployment.apps "second-app" deleted
+
+D:\MI Institute\GCP Training\Labs\K8s>
+D:\MI Institute\GCP Training\Labs\K8s>kubectl apply -f first-app.yaml
+service/my-lb-service created
+deployment.apps/second-app created
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-7866f6897c-mcbg4   0/1     Running   0          5s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-7866f6897c-mcbg4   0/1     Running   0          12s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-7866f6897c-mcbg4   0/1     Running   0          14s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-7866f6897c-mcbg4
+Name:         second-app-7866f6897c-mcbg4
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:23:14 +0530
+Labels:       app=second-app
+              pod-template-hash=7866f6897c
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.14
+IPs:
+  IP:           10.4.0.14
+Controlled By:  ReplicaSet/second-app-7866f6897c
+Containers:
+  second-app:
+    Container ID:   containerd://457cc2fcb72c061fcca45a513af2d1a63bf6feb8d83710d6f58786928ab73dcb
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:23:31 +0530
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    143
+      Started:      Mon, 19 Jul 2021 08:23:15 +0530
+      Finished:     Mon, 19 Jul 2021 08:23:30 +0530
+    Ready:          False
+    Restart Count:  1
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=5s timeout=1s period=5s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             False
+  ContainersReady   False
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason     Age                From                                               Message
+  ----     ------     ----               ----                                               -------
+  Normal   Scheduled  27s                default-scheduler                                  Successfully assigned default/second-app-7866f6897c-mcbg4 to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal   Pulled     26s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 211.992375ms
+  Normal   Pulling    11s (x2 over 26s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal   Killing    11s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Container second-app failed liveness probe, will be restarted
+  Normal   Created    10s (x2 over 26s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal   Started    10s (x2 over 26s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+  Normal   Pulled     10s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 181.167166ms
+  Warning  Unhealthy  1s (x4 over 21s)   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Liveness probe failed: Get "http://10.4.0.14:8080/hello": dial tcp 10.4.0.14:8080: connect: connection refused
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-7866f6897c-mcbg4
+Name:         second-app-7866f6897c-mcbg4
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:23:14 +0530
+Labels:       app=second-app
+              pod-template-hash=7866f6897c
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.14
+IPs:
+  IP:           10.4.0.14
+Controlled By:  ReplicaSet/second-app-7866f6897c
+Containers:
+  second-app:
+    Container ID:   containerd://44af45265573c93c2b5f6ac32a0f243d6b4fc709ed8b1046903bcd2469f7a5a5
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:23:51 +0530
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    143
+      Started:      Mon, 19 Jul 2021 08:23:31 +0530
+      Finished:     Mon, 19 Jul 2021 08:23:50 +0530
+    Ready:          False
+    Restart Count:  2
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=5s timeout=1s period=5s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             False
+  ContainersReady   False
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason     Age               From                                               Message
+  ----     ------     ----              ----                                               -------
+  Normal   Scheduled  44s               default-scheduler                                  Successfully assigned default/second-app-7866f6897c-mcbg4 to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal   Pulled     43s               kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 211.992375ms
+  Normal   Pulled     27s               kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 181.167166ms
+  Warning  Unhealthy  10s               kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Readiness probe failed: Get "http://10.4.0.14:8080/hello": dial tcp 10.4.0.14:8080: connect: connection refused
+  Warning  Unhealthy  8s (x6 over 38s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Liveness probe failed: Get "http://10.4.0.14:8080/hello": dial tcp 10.4.0.14:8080: connect: connection refused
+  Normal   Killing    8s (x2 over 28s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Container second-app failed liveness probe, will be restarted
+  Normal   Pulling    8s (x3 over 43s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal   Created    7s (x3 over 43s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal   Started    7s (x3 over 43s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+  Normal   Pulled     7s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 204.894416ms
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-7866f6897c-mcbg4
+Name:         second-app-7866f6897c-mcbg4
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:23:14 +0530
+Labels:       app=second-app
+              pod-template-hash=7866f6897c
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.14
+IPs:
+  IP:           10.4.0.14
+Controlled By:  ReplicaSet/second-app-7866f6897c
+Containers:
+  second-app:
+    Container ID:   containerd://44af45265573c93c2b5f6ac32a0f243d6b4fc709ed8b1046903bcd2469f7a5a5
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:23:51 +0530
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    143
+      Started:      Mon, 19 Jul 2021 08:23:31 +0530
+      Finished:     Mon, 19 Jul 2021 08:23:50 +0530
+    Ready:          False
+    Restart Count:  2
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=5s timeout=1s period=5s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             False
+  ContainersReady   False
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason     Age                From                                               Message
+  ----     ------     ----               ----                                               -------
+  Normal   Scheduled  50s                default-scheduler                                  Successfully assigned default/second-app-7866f6897c-mcbg4 to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal   Pulled     49s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 211.992375ms
+  Normal   Pulled     33s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 181.167166ms
+  Warning  Unhealthy  16s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Readiness probe failed: Get "http://10.4.0.14:8080/hello": dial tcp 10.4.0.14:8080: connect: connection refused
+  Normal   Killing    14s (x2 over 34s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Container second-app failed liveness probe, will be restarted
+  Normal   Pulling    14s (x3 over 49s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal   Created    13s (x3 over 49s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal   Started    13s (x3 over 49s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+  Normal   Pulled     13s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 204.894416ms
+  Warning  Unhealthy  4s (x7 over 44s)   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Liveness probe failed: Get "http://10.4.0.14:8080/hello": dial tcp 10.4.0.14:8080: connect: connection refused
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-7866f6897c-mcbg4
+Name:         second-app-7866f6897c-mcbg4
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:23:14 +0530
+Labels:       app=second-app
+              pod-template-hash=7866f6897c
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.14
+IPs:
+  IP:           10.4.0.14
+Controlled By:  ReplicaSet/second-app-7866f6897c
+Containers:
+  second-app:
+    Container ID:   containerd://44af45265573c93c2b5f6ac32a0f243d6b4fc709ed8b1046903bcd2469f7a5a5
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:23:51 +0530
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    143
+      Started:      Mon, 19 Jul 2021 08:23:31 +0530
+      Finished:     Mon, 19 Jul 2021 08:23:50 +0530
+    Ready:          True
+    Restart Count:  2
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=5s timeout=1s period=5s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             True
+  ContainersReady   True
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason     Age                From                                               Message
+  ----     ------     ----               ----                                               -------
+  Normal   Scheduled  79s                default-scheduler                                  Successfully assigned default/second-app-7866f6897c-mcbg4 to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal   Pulled     78s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 211.992375ms
+  Normal   Pulled     62s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 181.167166ms
+  Normal   Killing    43s (x2 over 63s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Container second-app failed liveness probe, will be restarted
+  Normal   Pulling    43s (x3 over 78s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal   Created    42s (x3 over 78s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal   Started    42s (x3 over 78s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+  Normal   Pulled     42s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 204.894416ms
+  Warning  Unhealthy  28s (x8 over 73s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Liveness probe failed: Get "http://10.4.0.14:8080/hello": dial tcp 10.4.0.14:8080: connect: connection refused
+  Warning  Unhealthy  25s (x2 over 45s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Readiness probe failed: Get "http://10.4.0.14:8080/hello": dial tcp 10.4.0.14:8080: connect: connection refused
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-7866f6897c-mcbg4
+Name:         second-app-7866f6897c-mcbg4
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:23:14 +0530
+Labels:       app=second-app
+              pod-template-hash=7866f6897c
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.14
+IPs:
+  IP:           10.4.0.14
+Controlled By:  ReplicaSet/second-app-7866f6897c
+Containers:
+  second-app:
+    Container ID:   containerd://44af45265573c93c2b5f6ac32a0f243d6b4fc709ed8b1046903bcd2469f7a5a5
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:23:51 +0530
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    143
+      Started:      Mon, 19 Jul 2021 08:23:31 +0530
+      Finished:     Mon, 19 Jul 2021 08:23:50 +0530
+    Ready:          True
+    Restart Count:  2
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=5s timeout=1s period=5s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             True
+  ContainersReady   True
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason     Age                   From                                               Message
+  ----     ------     ----                  ----                                               -------
+  Normal   Scheduled  2m34s                 default-scheduler                                  Successfully assigned default/second-app-7866f6897c-mcbg4 to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal   Pulled     2m33s                 kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 211.992375ms
+  Normal   Pulled     2m17s                 kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 181.167166ms
+  Normal   Killing    118s (x2 over 2m18s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Container second-app failed liveness probe, will be restarted
+  Normal   Pulling    118s (x3 over 2m33s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal   Created    117s (x3 over 2m33s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal   Started    117s (x3 over 2m33s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+  Normal   Pulled     117s                  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 204.894416ms
+  Warning  Unhealthy  103s (x8 over 2m28s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Liveness probe failed: Get "http://10.4.0.14:8080/hello": dial tcp 10.4.0.14:8080: connect: connection refused
+  Warning  Unhealthy  100s (x2 over 2m)     kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Readiness probe failed: Get "http://10.4.0.14:8080/hello": dial tcp 10.4.0.14:8080: connect: connection refused
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-7866f6897c-mcbg4
+Name:         second-app-7866f6897c-mcbg4
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:23:14 +0530
+Labels:       app=second-app
+              pod-template-hash=7866f6897c
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.14
+IPs:
+  IP:           10.4.0.14
+Controlled By:  ReplicaSet/second-app-7866f6897c
+Containers:
+  second-app:
+    Container ID:   containerd://44af45265573c93c2b5f6ac32a0f243d6b4fc709ed8b1046903bcd2469f7a5a5
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:23:51 +0530
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    143
+      Started:      Mon, 19 Jul 2021 08:23:31 +0530
+      Finished:     Mon, 19 Jul 2021 08:23:50 +0530
+    Ready:          True
+    Restart Count:  2
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=5s timeout=1s period=5s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             True
+  ContainersReady   True
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason     Age                    From                                               Message
+  ----     ------     ----                   ----                                               -------
+  Normal   Scheduled  3m12s                  default-scheduler                                  Successfully assigned default/second-app-7866f6897c-mcbg4 to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal   Pulled     3m11s                  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 211.992375ms
+  Normal   Pulled     2m55s                  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 181.167166ms
+  Normal   Killing    2m36s (x2 over 2m56s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Container second-app failed liveness probe, will be restarted
+  Normal   Pulling    2m36s (x3 over 3m11s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal   Created    2m35s (x3 over 3m11s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal   Started    2m35s (x3 over 3m11s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+  Normal   Pulled     2m35s                  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 204.894416ms
+  Warning  Unhealthy  2m21s (x8 over 3m6s)   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Liveness probe failed: Get "http://10.4.0.14:8080/hello": dial tcp 10.4.0.14:8080: connect: connection refused
+  Warning  Unhealthy  2m18s (x2 over 2m38s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Readiness probe failed: Get "http://10.4.0.14:8080/hello": dial tcp 10.4.0.14:8080: connect: connection refused
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-7866f6897c-mcbg4   1/1     Running   2          3m21s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl delete -f first-app.yaml
+service "my-lb-service" deleted
+deployment.apps "second-app" deleted
+
+D:\MI Institute\GCP Training\Labs\K8s>
+D:\MI Institute\GCP Training\Labs\K8s>kubectl delete -f first-app.yaml -n app-deploy
+service "my-lb-service" deleted
+deployment.apps "second-app" deleted
+
+D:\MI Institute\GCP Training\Labs\K8s>
+D:\MI Institute\GCP Training\Labs\K8s>
+D:\MI Institute\GCP Training\Labs\K8s>
+D:\MI Institute\GCP Training\Labs\K8s>
+D:\MI Institute\GCP Training\Labs\K8s>
+D:\MI Institute\GCP Training\Labs\K8s>kubectl apply -f first-app.yaml
+service/my-lb-service created
+deployment.apps/second-app created
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-7866f6897c-mcgdr   0/1     Running   0          9s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-7866f6897c-mcgdr
+Name:         second-app-7866f6897c-mcgdr
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:28:01 +0530
+Labels:       app=second-app
+              pod-template-hash=7866f6897c
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.15
+IPs:
+  IP:           10.4.0.15
+Controlled By:  ReplicaSet/second-app-7866f6897c
+Containers:
+  second-app:
+    Container ID:   containerd://dcb9941433f27663d5b5c26813c32c150d1164159f161285e3eecdc73d2bf099
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:28:23 +0530
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    143
+      Started:      Mon, 19 Jul 2021 08:28:03 +0530
+      Finished:     Mon, 19 Jul 2021 08:28:22 +0530
+    Ready:          False
+    Restart Count:  1
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=5s timeout=1s period=5s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             False
+  ContainersReady   False
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason     Age               From                                               Message
+  ----     ------     ----              ----                                               -------
+  Normal   Scheduled  29s               default-scheduler                                  Successfully assigned default/second-app-7866f6897c-mcgdr to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal   Pulled     28s               kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 223.76259ms
+  Normal   Pulling    8s (x2 over 28s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Warning  Unhealthy  8s (x3 over 18s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Liveness probe failed: Get "http://10.4.0.15:8080/hello": dial tcp 10.4.0.15:8080: connect: connection refused
+  Normal   Killing    8s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Container second-app failed liveness probe, will be restarted
+  Normal   Created    7s (x2 over 28s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal   Started    7s (x2 over 27s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+  Normal   Pulled     7s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 199.259422ms
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-7866f6897c-mcgdr
+Name:         second-app-7866f6897c-mcgdr
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:28:01 +0530
+Labels:       app=second-app
+              pod-template-hash=7866f6897c
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.15
+IPs:
+  IP:           10.4.0.15
+Controlled By:  ReplicaSet/second-app-7866f6897c
+Containers:
+  second-app:
+    Container ID:   containerd://0f22b6c82f57b8c4cd2a703fc66c13e77102cea6ae60a09ba4fef008bb83c196
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:28:43 +0530
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    143
+      Started:      Mon, 19 Jul 2021 08:28:23 +0530
+      Finished:     Mon, 19 Jul 2021 08:28:42 +0530
+    Ready:          False
+    Restart Count:  2
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=5s timeout=1s period=5s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             False
+  ContainersReady   False
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason     Age                From                                               Message
+  ----     ------     ----               ----                                               -------
+  Normal   Scheduled  56s                default-scheduler                                  Successfully assigned default/second-app-7866f6897c-mcgdr to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal   Pulled     55s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 223.76259ms
+  Normal   Pulled     34s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 199.259422ms
+  Normal   Killing    15s (x2 over 35s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Container second-app failed liveness probe, will be restarted
+  Normal   Pulling    15s (x3 over 55s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal   Created    14s (x3 over 55s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal   Started    14s (x3 over 54s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+  Normal   Pulled     14s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 229.408974ms
+  Warning  Unhealthy  5s (x7 over 45s)   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Liveness probe failed: Get "http://10.4.0.15:8080/hello": dial tcp 10.4.0.15:8080: connect: connection refused
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS             RESTARTS   AGE
+second-app-7866f6897c-mcgdr   0/1     CrashLoopBackOff   3          92s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-7866f6897c-mcgdr   0/1     Running   5          2m5s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-7866f6897c-mcgdr   0/1     Running   5          2m15s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl delete -f first-app.yaml
+service "my-lb-service" deleted
+deployment.apps "second-app" deleted
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl apply -f first-app.yaml
+service/my-lb-service created
+deployment.apps/second-app created
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                        READY   STATUS              RESTARTS   AGE
+second-app-d7bc9b48-czndn   0/1     ContainerCreating   0          6s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                        READY   STATUS    RESTARTS   AGE
+second-app-d7bc9b48-czndn   0/1     Running   0          11s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                        READY   STATUS    RESTARTS   AGE
+second-app-d7bc9b48-czndn   0/1     Running   0          14s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                        READY   STATUS    RESTARTS   AGE
+second-app-d7bc9b48-czndn   0/1     Running   0          19s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-d7bc9b48-czndn
+Name:         second-app-d7bc9b48-czndn
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:32:41 +0530
+Labels:       app=second-app
+              pod-template-hash=d7bc9b48
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.16
+IPs:
+  IP:           10.4.0.16
+Controlled By:  ReplicaSet/second-app-d7bc9b48
+Containers:
+  second-app:
+    Container ID:   containerd://d6f83f397ccd6af1c1400e2a6bb0e2820006501f884e4b7b19af1a99f9d5b42c
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:32:49 +0530
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=20s timeout=1s period=10s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             True
+  ContainersReady   True
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type    Reason     Age   From                                               Message
+  ----    ------     ----  ----                                               -------
+  Normal  Scheduled  61s   default-scheduler                                  Successfully assigned default/second-app-d7bc9b48-czndn to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal  Pulling    60s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal  Pulled     54s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 6.275644151s
+  Normal  Created    53s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal  Started    53s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+
+D:\MI Institute\GCP Training\Labs\K8s>
+D:\MI Institute\GCP Training\Labs\K8s>
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-d7bc9b48-czndn
+Name:         second-app-d7bc9b48-czndn
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:32:41 +0530
+Labels:       app=second-app
+              pod-template-hash=d7bc9b48
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.16
+IPs:
+  IP:           10.4.0.16
+Controlled By:  ReplicaSet/second-app-d7bc9b48
+Containers:
+  second-app:
+    Container ID:   containerd://d6f83f397ccd6af1c1400e2a6bb0e2820006501f884e4b7b19af1a99f9d5b42c
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:32:49 +0530
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=20s timeout=1s period=10s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             True
+  ContainersReady   True
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type    Reason     Age   From                                               Message
+  ----    ------     ----  ----                                               -------
+  Normal  Scheduled  82s   default-scheduler                                  Successfully assigned default/second-app-d7bc9b48-czndn to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal  Pulling    81s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal  Pulled     75s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 6.275644151s
+  Normal  Created    74s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal  Started    74s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-d7bc9b48-czndn
+Name:         second-app-d7bc9b48-czndn
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:32:41 +0530
+Labels:       app=second-app
+              pod-template-hash=d7bc9b48
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.16
+IPs:
+  IP:           10.4.0.16
+Controlled By:  ReplicaSet/second-app-d7bc9b48
+Containers:
+  second-app:
+    Container ID:   containerd://d6f83f397ccd6af1c1400e2a6bb0e2820006501f884e4b7b19af1a99f9d5b42c
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:32:49 +0530
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=20s timeout=1s period=10s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             True
+  ContainersReady   True
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type    Reason     Age   From                                               Message
+  ----    ------     ----  ----                                               -------
+  Normal  Scheduled  113s  default-scheduler                                  Successfully assigned default/second-app-d7bc9b48-czndn to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal  Pulling    112s  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal  Pulled     106s  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 6.275644151s
+  Normal  Created    105s  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal  Started    105s  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl delete -f first-app.yaml
+service "my-lb-service" deleted
+deployment.apps "second-app" deleted
+
+D:\MI Institute\GCP Training\Labs\K8s>
+D:\MI Institute\GCP Training\Labs\K8s>kubectl apply -f first-app.yaml
+service/my-lb-service created
+deployment.apps/second-app created
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-64964f6789-4bbg7   0/1     Running   0          6s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-64964f6789-4bbg7
+Name:         second-app-64964f6789-4bbg7
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:35:52 +0530
+Labels:       app=second-app
+              pod-template-hash=64964f6789
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.17
+IPs:
+  IP:           10.4.0.17
+Controlled By:  ReplicaSet/second-app-64964f6789
+Containers:
+  second-app:
+    Container ID:   containerd://995adeb54f6162abcef37654627a5338337d00437112b27ea563cb40b0ffd5d3
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:35:53 +0530
+    Ready:          False
+    Restart Count:  0
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=20s timeout=1s period=10s #success=1 #failure=3
+    Readiness:    http-get http://:8080/helloo delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             False
+  ContainersReady   False
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason     Age   From                                               Message
+  ----     ------     ----  ----                                               -------
+  Normal   Scheduled  19s   default-scheduler                                  Successfully assigned default/second-app-64964f6789-4bbg7 to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal   Pulling    18s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal   Pulled     18s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 268.425866ms
+  Normal   Created    18s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal   Started    18s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+  Warning  Unhealthy  2s    kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Readiness probe failed: Get "http://10.4.0.17:8080/helloo": dial tcp 10.4.0.17:8080: connect: connection refused
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl delete -f first-app.yaml
+service "my-lb-service" deleted
+deployment.apps "second-app" deleted
+
+D:\MI Institute\GCP Training\Labs\K8s>
+D:\MI Institute\GCP Training\Labs\K8s>kubectl apply -f first-app.yaml
+service/my-lb-service created
+deployment.apps/second-app created
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-548fffdcb7-vkwc2   0/1     Running   0          7s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-548fffdcb7-vkwc2
+Name:         second-app-548fffdcb7-vkwc2
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:38:41 +0530
+Labels:       app=second-app
+              pod-template-hash=548fffdcb7
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.18
+IPs:
+  IP:           10.4.0.18
+Controlled By:  ReplicaSet/second-app-548fffdcb7
+Containers:
+  second-app:
+    Container ID:   containerd://e8de9c0354c92120b6b0137c9f62ee52fcbeb2f110659e7b9e09704bd94aec4c
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:38:43 +0530
+    Ready:          False
+    Restart Count:  0
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/helloo delay=20s timeout=1s period=10s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             False
+  ContainersReady   False
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason     Age   From                                               Message
+  ----     ------     ----  ----                                               -------
+  Normal   Scheduled  26s   default-scheduler                                  Successfully assigned default/second-app-548fffdcb7-vkwc2 to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal   Pulling    25s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal   Pulled     24s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 219.807023ms
+  Normal   Created    24s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal   Started    24s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+  Warning  Unhealthy  9s    kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Readiness probe failed: Get "http://10.4.0.18:8080/hello": dial tcp 10.4.0.18:8080: connect: connection refused
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-548fffdcb7-vkwc2
+Name:         second-app-548fffdcb7-vkwc2
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:38:41 +0530
+Labels:       app=second-app
+              pod-template-hash=548fffdcb7
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.18
+IPs:
+  IP:           10.4.0.18
+Controlled By:  ReplicaSet/second-app-548fffdcb7
+Containers:
+  second-app:
+    Container ID:   containerd://e8de9c0354c92120b6b0137c9f62ee52fcbeb2f110659e7b9e09704bd94aec4c
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:38:43 +0530
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/helloo delay=20s timeout=1s period=10s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             True
+  ContainersReady   True
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason     Age               From                                               Message
+  ----     ------     ----              ----                                               -------
+  Normal   Scheduled  49s               default-scheduler                                  Successfully assigned default/second-app-548fffdcb7-vkwc2 to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal   Pulling    48s               kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal   Pulled     47s               kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 219.807023ms
+  Normal   Created    47s               kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal   Started    47s               kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+  Warning  Unhealthy  32s               kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Readiness probe failed: Get "http://10.4.0.18:8080/hello": dial tcp 10.4.0.18:8080: connect: connection refused
+  Warning  Unhealthy  9s (x2 over 18s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Liveness probe failed: HTTP probe failed with statuscode: 404
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-548fffdcb7-vkwc2
+Name:         second-app-548fffdcb7-vkwc2
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:38:41 +0530
+Labels:       app=second-app
+              pod-template-hash=548fffdcb7
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.18
+IPs:
+  IP:           10.4.0.18
+Controlled By:  ReplicaSet/second-app-548fffdcb7
+Containers:
+  second-app:
+    Container ID:   containerd://6c473be2c79902e600928af646f3c662e4097337433f4cdf99e8aad6b1323060
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:39:32 +0530
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    143
+      Started:      Mon, 19 Jul 2021 08:38:43 +0530
+      Finished:     Mon, 19 Jul 2021 08:39:31 +0530
+    Ready:          True
+    Restart Count:  1
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/helloo delay=20s timeout=1s period=10s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=15s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             True
+  ContainersReady   True
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason     Age                From                                               Message
+  ----     ------     ----               ----                                               -------
+  Normal   Scheduled  78s                default-scheduler                                  Successfully assigned default/second-app-548fffdcb7-vkwc2 to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal   Pulled     76s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 219.807023ms
+  Normal   Killing    28s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Container second-app failed liveness probe, will be restarted
+  Warning  Unhealthy  28s (x3 over 47s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Liveness probe failed: HTTP probe failed with statuscode: 404
+  Normal   Created    27s (x2 over 76s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal   Started    27s (x2 over 76s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+  Normal   Pulling    27s (x2 over 77s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal   Pulled     27s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 206.755783ms
+  Warning  Unhealthy  11s (x2 over 61s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Readiness probe failed: Get "http://10.4.0.18:8080/hello": dial tcp 10.4.0.18:8080: connect: connection refused
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-548fffdcb7-vkwc2   0/1     Running   2          2m6s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl delete -f first-app.yaml
+service "my-lb-service" deleted
+deployment.apps "second-app" deleted
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl apply -f first-app.yaml
+service/my-lb-service created
+deployment.apps/second-app created
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-5796fd7b5d-hnftw   0/1     Running   2          95s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-5796fd7b5d-hnftw
+Name:         second-app-5796fd7b5d-hnftw
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:42:05 +0530
+Labels:       app=second-app
+              pod-template-hash=5796fd7b5d
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.19
+IPs:
+  IP:           10.4.0.19
+Controlled By:  ReplicaSet/second-app-5796fd7b5d
+Containers:
+  second-app:
+    Container ID:   containerd://5cc8f30dc7dfc5a1237f5e50d5e11e6c8767745563ba309240f881c37c812c1a
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:43:35 +0530
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    143
+      Started:      Mon, 19 Jul 2021 08:42:55 +0530
+      Finished:     Mon, 19 Jul 2021 08:43:35 +0530
+    Ready:          False
+    Restart Count:  2
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/helloo delay=20s timeout=1s period=10s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=25s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             False
+  ContainersReady   False
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type     Reason     Age                 From                                               Message
+  ----     ------     ----                ----                                               -------
+  Normal   Scheduled  114s                default-scheduler                                  Successfully assigned default/second-app-5796fd7b5d-hnftw to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal   Pulled     113s                kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 220.677738ms
+  Normal   Pulled     64s                 kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 177.81055ms
+  Normal   Created    24s (x3 over 113s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal   Started    24s (x3 over 113s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+  Warning  Unhealthy  24s (x5 over 84s)   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Liveness probe failed: HTTP probe failed with statuscode: 404
+  Normal   Killing    24s (x2 over 64s)   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Container second-app failed liveness probe, will be restarted
+  Normal   Pulling    24s (x3 over 113s)  kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal   Pulled     24s                 kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 203.639325ms
+  Warning  Unhealthy  4s (x2 over 44s)    kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Liveness probe failed: Get "http://10.4.0.19:8080/helloo": dial tcp 10.4.0.19:8080: connect: connection refused
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl delete -f first-app.yaml
+service "my-lb-service" deleted
+deployment.apps "second-app" deleted
+
+D:\MI Institute\GCP Training\Labs\K8s>
+D:\MI Institute\GCP Training\Labs\K8s>
+D:\MI Institute\GCP Training\Labs\K8s>
+D:\MI Institute\GCP Training\Labs\K8s>kubectl apply -f first-app.yaml
+service/my-lb-service created
+deployment.apps/second-app created
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-7674555fc6-j648n   0/1     Running   0          6s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-7674555fc6-j648n   0/1     Running   0          14s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-7674555fc6-j648n
+Name:         second-app-7674555fc6-j648n
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:47:01 +0530
+Labels:       app=second-app
+              pod-template-hash=7674555fc6
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.20
+IPs:
+  IP:           10.4.0.20
+Controlled By:  ReplicaSet/second-app-7674555fc6
+Containers:
+  second-app:
+    Container ID:   containerd://5bf1514f737a7a72f68c419f299b870ad04b072407388761615998f10f9b5459
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:47:02 +0530
+    Ready:          False
+    Restart Count:  0
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=25s timeout=1s period=10s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=25s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             False
+  ContainersReady   False
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type    Reason     Age   From                                               Message
+  ----    ------     ----  ----                                               -------
+  Normal  Scheduled  21s   default-scheduler                                  Successfully assigned default/second-app-7674555fc6-j648n to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal  Pulling    20s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal  Pulled     20s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 211.173959ms
+  Normal  Created    20s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal  Started    20s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-7674555fc6-j648n   0/1     Running   0          30s
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl apply -f first-app.yaml
+
+D:\MI Institute\GCP Training\Labs\K8s>
+
+D:\MI Institute\GCP Training\Labs\K8s>
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl describe pod second-app-7674555fc6-j648n
+Name:         second-app-7674555fc6-j648n
+Namespace:    default
+Priority:     0
+Node:         gke-cluster-1-default-pool-978e0d0a-3bzg/10.128.0.39
+Start Time:   Mon, 19 Jul 2021 08:47:01 +0530
+Labels:       app=second-app
+              pod-template-hash=7674555fc6
+Annotations:  <none>
+Status:       Running
+IP:           10.4.0.20
+IPs:
+  IP:           10.4.0.20
+Controlled By:  ReplicaSet/second-app-7674555fc6
+Containers:
+  second-app:
+    Container ID:   containerd://5bf1514f737a7a72f68c419f299b870ad04b072407388761615998f10f9b5459
+    Image:          gcr.io/midevlab/first-aap:latest
+    Image ID:       gcr.io/midevlab/first-aap@sha256:fce0bc86a9666a4c9aefac5f1c6672c03738fe600769c294ad77c657fa8bf73e
+    Port:           8080/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Mon, 19 Jul 2021 08:47:02 +0530
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      cpu:     500m
+      memory:  128Mi
+    Requests:
+      cpu:        250m
+      memory:     64Mi
+    Liveness:     http-get http://:8080/hello delay=25s timeout=1s period=10s #success=1 #failure=3
+    Readiness:    http-get http://:8080/hello delay=25s timeout=1s period=10s #success=1 #failure=3
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-2p7dq (ro)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             True
+  ContainersReady   True
+  PodScheduled      True
+Volumes:
+  default-token-2p7dq:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-2p7dq
+    Optional:    false
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute for 300s
+                 node.kubernetes.io/unreachable:NoExecute for 300s
+Events:
+  Type    Reason     Age   From                                               Message
+  ----    ------     ----  ----                                               -------
+  Normal  Scheduled  43s   default-scheduler                                  Successfully assigned default/second-app-7674555fc6-j648n to gke-cluster-1-default-pool-978e0d0a-3bzg
+  Normal  Pulling    42s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Pulling image "gcr.io/midevlab/first-aap:latest"
+  Normal  Pulled     42s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Successfully pulled image "gcr.io/midevlab/first-aap:latest" in 211.173959ms
+  Normal  Created    42s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Created container second-app
+  Normal  Started    42s   kubelet, gke-cluster-1-default-pool-978e0d0a-3bzg  Started container second-app
+
+D:\MI Institute\GCP Training\Labs\K8s>kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+second-app-7674555fc6-j648n   1/1     Running   0          53s
+
+D:\MI Institute\GCP Training\Labs\K8s>

@@ -1,0 +1,37 @@
+
+Create MSQL DB
+
+
+Create db user
+
+Create a Ubuntu VM
+SSH into Ubuntu and Install MySQL client - sudo apt-get install mysql-client
+
+
+
+Add Ubuntu VM external IP address to MySQL DB authorization network
+
+
+
+mysql --host=34.123.35.97 --user=dbuser --password=dbuser
+
+Create databases
+
+CREATE DATABASE miinstitute;
+
+show databases;
+
+USE miinstitute;
+
+CREATE TABLE entries (guestName VARCHAR(255), content VARCHAR(255),
+    entryID INT NOT NULL AUTO_INCREMENT, PRIMARY KEY(entryID));
+    INSERT INTO entries (guestName, content) values ("Ishaq", "Hello!");
+INSERT INTO entries (guestName, content) values ("Ananth", "Hi Ishaq!");
+
+
+SELECT * FROM entries;
+
+
+
+
+
